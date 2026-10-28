@@ -1,0 +1,87 @@
+body {
+    background-color: #e6f7ff;
+    font-family: Verdana, sans-serif;
+    color: #004d73;
+}
+
+.main-header h1 {
+    color: #0080a0;
+    font-family: "Courier New", monospace;
+    font-size: 26px;
+}
+
+.header-subtitle,
+.header-note {
+    color: #006699;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+.section-title {
+    color: #0077b3;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.content-section p,
+.image-caption,
+.button-intro,
+.button-info,
+.footer-message,
+.footer-title + p {
+    color: #005980;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.fun-fact {
+    color: #0099cc;
+    font-weight: bold;
+    background-color: #cceeff;
+    padding: 10px;
+    border-left: 4px solid #0077b3;
+}
+
+.learn-more-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+.learn-more-link:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #b3e0ff;
+    color: #005980;
+    border: 1px solid #80ccff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin: 5px;
+}
+
+.main-footer {
+    background-color: #cceeff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.quote {
+    color: #0077b3;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.divider {
+    border: 0;
+    height: 2px;
+    background-color: #80ccff;
+    width: 80%;
+}
